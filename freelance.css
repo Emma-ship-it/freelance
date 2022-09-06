@@ -31,6 +31,7 @@ width: 500px;
 .header{background-color: #0E1724;
     width: 100%;
 margin-top: 74px;}
+
 .find{width:800px;
 display: flex;
 margin-left: 100px;
@@ -49,8 +50,61 @@ border: none;
 color: white;
 font-size: 15px;}
 
+.meeks a{text-decoration: none;color: black;
+font-size: 14px;}
+.meeks a:hover {color: #91D2F8;}
+.meeks{position: relative;}
+
+.by{width: 200px;
+    height: 140px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    margin: 5px 0;
+    left: 0;
+    border-radius: 5px;}
 
 
+ 
+.resource{width: 240px;
+    height: 500px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    margin: 5px 0;
+    left: 0;
+    display: none;
+    border-radius: 5px;}
+.meeks:hover .resource{display: block;}
+
+.about{width: 220px;
+    height: 180px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    margin: 5px 0;
+    display: none;
+    left: 0;
+border-radius: 5px;}
+
+.meeks:hover .about{display: block;}    
+
+.ideas li,.about li,.resource li{margin-top: 10px;}
+.ideas{width: 240px;
+height: 320px;
+background-color: white;
+padding: 10px;
+position: absolute;
+z-index: 1;
+margin: 5px 0;
+display: none;
+left: 0;
+border-radius: 5px;}
+
+.meeks:hover .ideas{display: block;}
 
 
 
