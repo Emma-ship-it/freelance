@@ -15,7 +15,14 @@ width: 100%;
 padding: 15px 0;
 z-index: 999;
 }
-nav a{text-decoration: none;
+
+.proj{background-color:rgb(228, 36, 202);font-weight:600;color:white;border-radius:8px;}
+.proj a{color: white;
+text-decoration: none;}
+
+.troy{text-decoration: none;
+    color:black;}
+.asset a{text-decoration: none;
 color:black;
 margin-left: 20px;}
 nav img{width:150px;}
@@ -55,7 +62,20 @@ font-size: 14px;}
 .meeks a:hover {color: #91D2F8;}
 .meeks{position: relative;}
 
-.by{width: 200px;
+
+.locs{background-color:white;
+    width: 280px;
+    height: 400px;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    padding:10px; 
+border-radius: 0 5px 5px 0;
+display: none;}
+
+.crush-2:hover .locs{display: block;}
+
+.mye{width: 180px;
     height: 140px;
     background-color: white;
     padding: 10px;
@@ -63,10 +83,100 @@ font-size: 14px;}
     z-index: 1;
     margin: 5px 0;
     left: 0;
-    border-radius: 5px;}
+    border-radius: 5px;
+display: none;}
 
 
- 
+.meeks-2:hover .mye{display: block;}
+
+
+
+
+.crush{margin-top: 15px;}
+.crush p{font-size:14px ;}
+.crush p:hover{color: #91D2F8 ;}
+.HGD{background-color:white;
+    width: 300px;
+    height: 520px;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    padding:10px; 
+    border-radius: 5px;
+    display: none;
+}
+.crush-1:hover .HGD{display: block;}
+
+
+.prior{position: absolute;
+    width: 300px;
+    height: 520px;
+    background-color:white;
+    padding: 10px;
+    left: 280px;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+display: none;}
+
+.FGD-2:hover .prior{display: block;}
+
+
+.by{width: 180px;
+    height: 140px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    margin: 5px 0;
+    left: 0;
+
+    border-radius: 5px;
+display: none;}
+
+.meeks-1:hover .by{display: block;}
+.squid{margin-top: 20px;} 
+
+.squid p{font-size: 14px;}
+
+.lang{background-color:white;
+    width: 280px;
+    height: 250px;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    padding:10px; 
+display: none;
+border-radius: 0 5px 5px 0;}
+
+.squid-2:hover .lang{display: block;}
+
+.kills li,.lang li, .HGD li, .locs li{margin-top: 11px;}
+
+
+ .kills{background-color:white;
+width: 280px;
+height: 430px;
+position: absolute;
+left: 150px;
+top: 0;
+padding:10px; 
+display:none;
+border-radius: 5px;}
+.squid-1:hover .kills{display: block;}
+
+.FGD:hover .error{display: block;}
+
+.error{position: absolute;
+width: 300px;
+height: 430px;
+background-color:white;
+padding: 10px;
+left: 260px;
+top: 0;
+display: none;
+border-radius: 0 5px 5px 0;}
+
+
 .resource{width: 240px;
     height: 500px;
     background-color: white;
@@ -116,8 +226,7 @@ border-radius: 5px;}
 .sub-container{font-weight: 800;
 margin-top: 80px;    
 margin-left: 60px;
-width: 510px;
-border: 1px solid black;}
+width: 480px;}
 .sub-container button{padding: 15px 10px;
 font-size: 20px;
 color:white;
@@ -331,3 +440,67 @@ margin-top: 80px;
 padding: 20px 0px;
 color: white;
 border-top: 1px solid gray;}
+
+.pointer{background-color:white;
+width: 25px;
+height: 20px;
+position: absolute;
+top: -3px;
+left: 0;
+transform: rotate(45deg);}
+
+.niche{position: absolute;
+background-color:white;
+top: 110px;
+left: -10px;
+width: 180px;
+height: 320px;
+display: none;}
+
+.squid-1:hover .niche{display: block;}
+.match{position: absolute;
+background-color: white;
+left: -10px;
+top: 110px;
+width: 180px;
+height:140px ;
+display: none;}
+
+.squid-2:hover .match{display: block;}
+.pointer-2{position: absolute;
+width: 20px;
+height: 20px;
+top: -8px;
+left: 20px;
+background-color: white;
+transform: rotate(45deg);}
+
+.ehiz{position: absolute;
+    background-color:white;
+    top: 110px;
+    left: -10px;
+    width: 180px;
+    height: 410px;
+display: none;}
+
+.kills{border-left: 1px solid lightgray;
+}
+
+.error{border-left: 1px solid lightgray;}
+.lang{border-left: 1px solid lightgray;}
+.crush-1:hover .ehiz{display: block;}
+.elias{position: absolute;
+    background-color: white;
+    left: -10px;
+    top: 110px;
+    width: 180px;
+    height:290px;
+display: none;}
+
+.HGD{border-left: 1px solid lightgray;}
+.prior{border-left: 1px solid lightgray;}
+.locs{border-left: 1px solid lightgrey;}
+.crush-2:hover .elias{display: block;}
+
+
+
